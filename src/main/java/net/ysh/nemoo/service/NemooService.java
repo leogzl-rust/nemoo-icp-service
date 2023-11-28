@@ -7,12 +7,12 @@ import net.ysh.nemoo.logic.BajoBusinessLogic;
 import net.ysh.util.LLog;
 
 @Component
-public class BajoService {
+public class NemooService {
 
 	@Autowired
 	private BajoBusinessLogic businessLogic;
 
-	public BajoService() {
+	public NemooService() {
 		System.out.println("BajoService.BajoService()");
 		LLog.info("BajoService.BajoService()");
 	}

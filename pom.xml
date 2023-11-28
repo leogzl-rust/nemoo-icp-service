@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>bajo</groupId>
 	<artifactId>bajo-nemoo</artifactId>
@@ -18,6 +20,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>17</java.version>
 		<ysh.version>1.0</ysh.version>
+		<icp.version>0.6.19.6</icp.version>
 	</properties>
 	<dependencies>
 		<!-- YSH Client -->
@@ -25,6 +28,17 @@
 			<groupId>ysh</groupId>
 			<artifactId>ysh-client</artifactId>
 			<version>${ysh.version}</version>
+		</dependency>
+		<!-- ICP -->
+		<dependency>
+			<groupId>org.ic4j</groupId>
+			<artifactId>ic4j-agent</artifactId>
+			<version>${icp.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.ic4j</groupId>
+			<artifactId>ic4j-candid</artifactId>
+			<version>${icp.version}</version>
 		</dependency>
 	</dependencies>
 	<build>
