@@ -1,6 +1,5 @@
 package net.ysh.nemoo.bean.icp;
 
-import java.net.URISyntaxException;
 import java.util.concurrent.CompletableFuture;
 
 import org.ic4j.agent.Agent;
@@ -21,7 +20,7 @@ public class IcpNemooController {
 	@Value("${nemoo.icp.canister}")
 	private String canister;
 
-	public String getCommand() throws URISyntaxException {
+	public String getCommand() throws Exception {
 		ReplicaTransport transport = ReplicaApacheHttpTransport.create(location);
 		Agent agent = new AgentBuilder().transport(transport).build();
 
