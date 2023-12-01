@@ -9,75 +9,75 @@ public class Fish implements Serializable {
 	private static final long serialVersionUID = -6471173502659954547L;
 
 	// id: text;
-	@Name("get_fish")
+	@Name("id")
 	private String id;
 
 	// tag_id: text;
-	@Name("get_fish")
+	@Name("tag_id")
 	private String tagId;
 
 	// fisher: text;
-	@Name("get_fish")
+	@Name("fisher")
 	private String fisher;
 
 	// location: text;
-	@Name("get_fish")
+	@Name("location")
 	private String location;
 
 	// date_catch: text;
-	@Name("get_fish")
+	@Name("date_catch")
 	private String dateCatch;
 
 	// date_process: text;
-	@Name("get_fish")
+	@Name("date_process")
 	private String dateProcess;
 
 	// latitute: text;
-	@Name("get_fish")
+	@Name("latitute")
 	private String latitute;
 
 	// longitude: text;
-	@Name("get_fish")
+	@Name("longitude")
 	private String longitude;
 
 	// gross_weight: int32;
-	@Name("get_fish")
+	@Name("gross_weight")
 	private int weight;
 
 	// sekami_1: int32;
-	@Name("get_fish")
+	@Name("sekami_1")
 	private int sekami1;
 
 	// sekami_2: int32;
-	@Name("get_fish")
+	@Name("sekami_2")
 	private int sekami2;
 
 	// haranaka_1: int32;
-	@Name("get_fish")
+	@Name("haranaka_1")
 	private int haranaka1;
 
 	// haranaka_2: int32;
-	@Name("get_fish")
+	@Name("haranaka_2")
 	private int haranaka2;
 
 	// toro: int32;
-	@Name("get_fish")
+	@Name("toro")
 	private int toro;
 
 	// head: int32;
-	@Name("get_fish")
+	@Name("head")
 	private int head;
 
 	// tail: int32;
-	@Name("get_fish")
+	@Name("tail")
 	private int tail;
 
 	// bone: int32;
-	@Name("get_fish")
+	@Name("bone")
 	private int bone;
 
 	// skin: int32;
-	@Name("get_fish")
+	@Name("skin")
 	private int skin;
 
 	public Fish() {
